@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 	num_slice := []int{1, 5, 3, 7, 2}
 	fmt.Println(greatest(num_slice...))
 

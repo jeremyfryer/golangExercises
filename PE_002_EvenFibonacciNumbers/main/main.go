@@ -6,9 +6,9 @@ import (
 
 func main() {
 	var sum int
-	for i := 1; fib(i)<4000000; i++ {
+	for i := 1; fib(i) < 4000000; i++ {
 
-		if (fib(i)%2 == 0){
+		if fib(i)%2 == 0 {
 			sum += fib(i)
 		}
 	}

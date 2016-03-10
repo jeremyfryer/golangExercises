@@ -2,13 +2,12 @@ package main
 
 import "fmt"
 
-func main(){
-	myFunc(1,2)
-	myFunc(1,2,3)
+func main() {
+	myFunc(1, 2)
+	myFunc(1, 2, 3)
 	num_slice := []int{1, 5, 3, 7, 2}
 	myFunc(num_slice...)
 	myFunc()
-
 
 }
 
