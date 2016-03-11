@@ -9,12 +9,12 @@ func main() {
 }
 
 func greatest(num ...int) int {
-	total := 0
+	max := 0
 	for _, v := range num {
-		if v > total {
-			total = v
+		if v > max {
+			max = v
 
 		}
 	}
-	return total
+	return max
 }
